@@ -3,14 +3,33 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color: #333;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 #container{
     width: 70%;
-    padding: 1em;
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
 }
 #container h1{
     font-size: 20px;
+}
+#cabecera{
+    background: #33a;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    font-size: 25px;
+
+}
+#post{
+    padding: 10px;;
+}
+.tagline{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 15px;;
 }
